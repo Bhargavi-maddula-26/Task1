@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Page</title>
+    <style>
+        /* Basic styling for the page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .recipe {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .recipe h2 {
+            color: #ff6347;
+        }
+        .recipe img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .ingredients, .instructions {
+            margin-top: 15px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff7b54;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ff5722;
+}
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Delicious Recipes</h1>
+    
+        <!-- Recipe 1 -->
+        <div class="recipe">
+            <h2>Paneer Curry</h2>
+            
+            <div class="ingredients">
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>200g paneer, cubed</li>
+                    <li>1 onion, finely chopped</li>
+                    <li>2 tomatoes, pureed</li>
+                    <li>1 tbsp ginger-garlic paste</li>
+                    <li>1/2 cup heavy cream</li>
+                    <li>2 tbsp oil or ghee</li>
+                    <li>1 tsp cumin seeds</li>
+                    <li>1 tsp turmeric powder</li>
+                    <li>1 tsp coriander powder</li>
+                    <li>1 tsp garam masala</li>
+                    <li>Salt, to taste</li>
+                    <li>Fresh coriander leaves for garnish</li>
+                </ul>
+            </div>
+            
+            <div class="instructions">
+                <h3>Instructions:</h3>
+                <p>1. Heat oil in a pan and add cumin seeds.</p>
+                <p>2. Add chopped onions and cook until golden brown.</p>
+                <p>3. Add ginger-garlic paste and cook until aromatic.</p>
+                <p>4. Add tomato puree, turmeric, coriander powder, and salt. Cook until oil separates.</p>
+                <p>5. Add paneer cubes and stir gently to coat them in the spices.</p>
+                <p>6. Pour in the cream and simmer for a few minutes.</p>
+                <p>7. Sprinkle garam masala and garnish with fresh coriander leaves.</p>
+                <p>8. Serve hot with naan or rice.</p>
+            </div>
+        </div>
+    
+        <!-- Recipe 2 -->
+    <div class="recipe">
+        <h2>Chicken Curry</h2>
+        
+        <div class="ingredients">
+            <h3>Ingredients:</h3>
+            <ul>
+                <li>500g chicken breast, diced</li>
+                <li>1 onion, chopped</li>
+                <li>2 cloves of garlic, minced</li>
+                <li>1 tbsp curry powder</li>
+                <li>1 cup coconut milk</li>
+                <li>Salt and pepper</li>
+            </ul>
+        </div>
+        
+        <div class="instructions">
+            <h3>Instructions:</h3>
+            <p>1. Sauté onions and garlic until golden.</p>
+            <p>2. Add chicken and cook until browned.</p>
+            <p>3. Add curry powder and coconut milk, then simmer.</p>
+            <p>4. Season with salt and pepper to taste.</p>
+            <p>5. Serve hot with rice or naan.</p>
+        </div>
+    </div>
+    <button id="alertButton">Let's cook</s>!</button>
+
+    <script src="script.js"></script> <!-- Link to JavaScript file -->
+   
+</body>
+</html>
